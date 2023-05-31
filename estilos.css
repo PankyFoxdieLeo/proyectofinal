@@ -1,0 +1,136 @@
+
+body{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    background-image: url(./fondo/fondo.png);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(78, 69, 69, 0.2);}
+    
+    
+.abajo{
+    color:rgb(235, 227, 227);
+    background-color: rgba(0, 0, 0, .7);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    }
+    .text-{
+        background-image: url(./fondo/fondo-del-main-servicio.jpg);
+        }
+
+    .fondoh1{
+        color:rgb(235, 227, 227);
+        background-color: rgba(0, 0, 0, .5);
+        
+    }
+.text-{
+background-image: url(./fondo/fondo-del-main-servicio.jpg);
+}
+
+header{
+background-image: url(./fondo/de9233d8b8125649126b41bc904990ac.jpg);
+grid-column-start: 1;
+grid-column-end: 4;
+height: 80px; ;
+background-color: rgba(44, 38, 38, 0.5);
+}
+
+footer{
+background-image: url(./fondo/fondo\ definitivo.png);
+grid-column-start: 1;
+grid-column-end: 4;
+height: 120px;
+/* background-color: rgba(44, 38, 38, 0.5); */
+}
+header img{
+    height:80px;
+    float:right;}
+
+aside{
+    background-color:rgba(245, 242, 242, 0.8) ;
+    border:black solid 1px;
+    grid-column-start: 3;
+
+}
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.tamaño1{
+    width: 300px;
+}
+
+.zoom1{
+    transition: .2s;
+}
+.zoom1:hover{
+    transform: scale(1.15);
+    
+}
+
+div img {
+    display: flex;
+}
+
+.titulo{
+    color:white;
+    background-color:rgba(8, 8, 8, 0.5);
+    grid-column-start: 1;
+    grid-column-end: 4;
+} 
+
+h2{
+
+    color:white;
+    background-color:rgba(8, 8, 8, 0.5);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+.card{
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 10px #31C5D7;
+    transition: width 2s, background-color 1s, box-shadow 1s;
+    border-radius: 10px;
+    color: black;
+    width: 350px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.card:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #D74177, #FFE98A);
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#name {
+    font-size: 24px;
+}
